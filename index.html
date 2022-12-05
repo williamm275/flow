@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flow - Get it done</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Flow</h1>
+    <p id="first">Get it done today</p>
+    <input id="userinput" type="text" placeholder="enter tasks" />
+    <button id="enter">Add</button>
+    <ul onclick="removeItem()">
+      <li class="bold red item" random="23">
+        Write in my journal<button class="remove">⤬</button>
+      </li>
+      <li class="item">Walk dog<button class="remove">⤬</button></li>
+      <li class="item">Read book<button class="remove">⤬</button></li>
+      <li class="item">Cook dinner<button class="remove">⤬</button></li>
+      <li class="item">Buy gifts<button class="remove">⤬</button></li>
+      <li class="item">Study<button class="remove">⤬</button></li>
+    </ul>
+
+    <div class="instructions">
+      <p>Click tasks to complete them without removing them.</p>
+	  <p>Click again to undo</p>
+      <p>Double click task to remove them</p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
